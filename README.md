@@ -1,36 +1,36 @@
-# Téléchargeur d'extraits YouTube
+# TÃ©lÃ©chargeur d'extraits YouTube
 
-Ce projet propose une application Python avec une interface graphique (Tkinter) qui vous permet de télécharger un extrait (défini par un intervalle de temps) d'une vidéo YouTube en utilisant [yt-dlp](https://github.com/yt-dlp/yt-dlp).
+Ce projet propose une application Python avec une interface graphique (Tkinter) qui vous permet de tÃ©lÃ©charger un extrait (dÃ©fini par un intervalle de temps) d'une vidÃ©o YouTube en utilisant [yt-dlp](https://github.com/yt-dlp/yt-dlp).
 
-## Fonctionnalités
+## FonctionnalitÃ©s
 
-- **Téléchargement d'un extrait vidéo :** Spécifiez l'URL de la vidéo, le temps de début et le temps de fin (en secondes) pour extraire la portion souhaitée.
+- **TÃ©lÃ©chargement d'un extrait vidÃ©o :** SpÃ©cifiez l'URL de la vidÃ©o, le temps de dÃ©but et le temps de fin (en secondes) pour extraire la portion souhaitÃ©e.
 - **Interface Graphique :** Utilisation de Tkinter pour une prise en main simple et intuitive.
-- **Sélection du répertoire de sortie :** Un bouton "Parcourir" permet de définir l'emplacement du fichier de sortie.
+- **SÃ©lection du rÃ©pertoire de sortie :** Un bouton "Parcourir" permet de dÃ©finir l'emplacement du fichier de sortie.
 
-## Prérequis
+## PrÃ©requis
 
-- Python 3.6 ou supérieur.
-- [yt-dlp](https://pypi.org/project/yt-dlp/) (installé via le fichier [requirements.txt](./requirements.txt))  
+- Python 3.6 ou supÃ©rieur.
+- [yt-dlp](https://pypi.org/project/yt-dlp/) (installÃ© via le fichier [requirements.txt](./requirements.txt))  
   Tkinter est inclus avec Python sur de nombreuses distributions.
 
 ## Installation
 
-1. **Cloner le dépôt :**
+1. **Cloner le dÃ©pÃ´t :**
 
    ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-depot.git
-   cd nom-du-depot
+   git clone https://github.com/votre-utilisateur/youtube_clip_downloader.git
+   cd youtube_clip_downloader
    ```
 
-2. **(Optionnel) Créer et activer un environnement virtuel :**
+2. **(Optionnel) CrÃ©er et activer un environnement virtuel :**
 
    ```bash
    python -m venv venv
    source venv/bin/activate  # Pour Windows : venv\Scripts\activate
    ```
 
-3. **Installer les dépendances :**
+3. **Installer les dÃ©pendances :**
 
    ```bash
    pip install -r requirements.txt
@@ -38,6 +38,6 @@ Ce projet propose une application Python avec une interface graphique (Tkinter) 
 
 ## Utilisation
 
-Exécutez le script principal : 
+ExÃ©cutez le script principal : 
 
 python youtube_clip_downloader.py
