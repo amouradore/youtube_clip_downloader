@@ -10,7 +10,7 @@ Ce projet propose une application Python avec une interface graphique (Tkinter) 
 
 ## Prérequis
 
-- Python 3.6 ou supérieur.
+- Python 3 ou supérieur.
 - [yt-dlp](https://pypi.org/project/yt-dlp/) (installé via le fichier [requirements.txt](./requirements.txt))  
   Tkinter est inclus avec Python sur de nombreuses distributions.
 
